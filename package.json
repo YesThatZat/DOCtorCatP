@@ -1,0 +1,30 @@
+{
+  "name": "doctorcatp",
+  "productName": "DOCtor Cat P",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A quick tool for splitting apart docx files into several txt files",
+  "author": {
+    "name": "YesThatZat"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.4",
+    "electron": "^30.0.1",
+    "electron-builder": "^24.13.3",
+    "svelte": "^5.46.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-electron": "^0.28.6",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "main": "dist-electron/main.js",
+  "dependencies": {
+    "mammoth": "^1.11.0"
+  }
+}
